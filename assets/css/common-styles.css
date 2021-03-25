@@ -1,0 +1,19 @@
+h2{
+  font-family: 'Roboto';
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 37px;
+  color: black;
+}
+.text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}

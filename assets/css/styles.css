@@ -1,7 +1,15 @@
 @import "./bootstrap-grid.min.css";
 @import url("./fonts.css");
+@import "./common-styles.css";
+@import "./projects.css";
+@import "./form.css";
+@import "./footer.css";
+
 * {
   box-sizing: border-box;
+}
+header{
+  background-color: #eeeff1;
 }
 .nav{
  display: flex;
@@ -30,12 +38,7 @@
   text-transform: uppercase;
   padding: 20px;
 }
-.header{
-  margin-top: 50px;
-  background-color: #eeeff1;
-}
-
-main{
+.first-part{
   background-color: #eeeff1;
 }
 .frame{
@@ -49,13 +52,10 @@ h1{
   color: black;
   margin-top: 90px;
 }
-.text{
-  font-family: 'Roboto';
+.text-first{
   text-align: left;
-  color: #727272;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-size: 16px;
 }
 .link{
   text-decoration: none;
@@ -68,5 +68,125 @@ button{
   width: 225px;
   height: 65px;
 }
+.about-me{
+  background-color: #E5E5E5;
+}
+.text-about{
+margin-bottom: 100px;
+margin-left: 280px;
+margin-right: 280px;
+}
+.title{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
 
+.numbers{
+padding-top: 80px;
+padding-bottom: 80px;
+background-color: #34547A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icons{
+  display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+.my-skills{
+  background-color: #E5E5E5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.my-skills-content{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+}
+.my-skills-block{
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 20px;
+}
+.skills-item{
+  margin-top: 30px;
+}
+.item-title{
+  display: block;
+  font-family: 'Roboto';
+  color: #727272;
+  font-size: 16px;
+}
+.item-bar{
+  background:linear-gradient(90deg, #34547A 70%, #c4c4c4 30%);
+  margin-top: 20px;
+  height: 4px;
+}
+.outer-wrapper{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-wrapper{
+  width: 100%;
+  position: relative;
+  padding-top: calc(100%*9/16);
+}
+.responsive-img-man{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.aspect-ratio-square{
+  padding-top: 100%;
+}
+.my-work{
+  background-color: #EEEFF1;
+  padding-bottom: 70px;
+}
+.yt-video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.video-outer-wrapper{
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.video-inner-wrapper{
+  position: relative;
+  padding-top: calc(100% * 9 / 16);
+}
+.text-my-work{
+  margin-bottom: 50px;
+  margin-left: 280px;
+  margin-right: 280px;
+  }
+  .clients{
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .logo-microsoft{
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-section{
+    background-color: #EEEFF1;
+    padding-bottom: 100px;
+  }
+  
 
